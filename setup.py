@@ -2,6 +2,7 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
+    # test123
     name='wings',
     url='https://github.com/Rubyr0id/wings',
     author='Anton Dubrovitskiy',
