@@ -14,7 +14,7 @@ setup(
     version='1.1dev',
     # The license can be anything you like
     license='MIT',
-    description='WOE transformation',
+    description='WOE transformation'
     # We will also need a readme eventually (there will be a warning)
-    long_description = open('README.txt').read(),
+    # long_description = open('README.txt').read()
 )
