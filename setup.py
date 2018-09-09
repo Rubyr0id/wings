@@ -1,4 +1,4 @@
-from setuptools import setup
+from distutils.core import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
@@ -11,10 +11,10 @@ setup(
     # Needed for dependencies
     install_requires=['numpy','pandas','itertools','datetime','sklearn'],
     # *strongly* suggested for sharing
-    version='1.1',
+    version='1.1dev',
     # The license can be anything you like
     license='MIT',
     description='WOE transformation',
     # We will also need a readme eventually (there will be a warning)
-    long_description = open('README.txt').read()
+    long_description = open('README.txt').read(),
 )
